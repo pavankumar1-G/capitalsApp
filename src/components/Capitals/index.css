@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  padding: 20px;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.captital-option-container {
+  background-color: #f8fafc;
+  width: 100%;
+  height: 45%;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+.heading {
+  font-size: 24px;
+  color: #323f4b;
+}
+.select-container {
+  display: flex;
+  align-items: center;
+}
+.select-captl {
+  width: 100px;
+  height: 30px;
+  color: #000000;
+  font-weight: 600;
+  border: 1.5px solid #cbd2d9;
+  border-radius: 5px;
+}
+.capital {
+  color: #000000;
+  font-weight: 600;
+}
+.capital-Question {
+  font-size: 10px;
+  margin-left: 5px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.country {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    padding: 20px;
+    background-color: #93c5fd;
+    height: 100vh;
+  }
+  .captital-option-container {
+    background-color: #f8fafc;
+    width: 80%;
+    height: 45%;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+  }
+  .heading {
+    font-size: 44px;
+    color: #323f4b;
+  }
+  .select-container {
+    display: flex;
+    align-items: center;
+  }
+  .select-captl {
+    width: 200px;
+    height: 50px;
+    color: #000000;
+    font-weight: 600;
+    border: 2px solid #cbd2d9;
+    border-radius: 6px;
+    font-size: 20px;
+  }
+  .capital {
+    color: #000000;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  .capital-Question {
+    font-size: 25px;
+    margin-left: 10px;
+    color: #1e293b;
+    font-weight: 500;
+  }
+  .country {
+    font-size: 35px;
+    font-weight: 500;
+  }
+}
